@@ -1,25 +1,66 @@
-# CakePHP 3
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.Spotlight-V100
+.Trashes
 
-/vendor/*
-/config/app.php
+# IDE Files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+*.code-workspace
+nbproject/
+.netbeans.xml
+.project
+.buildpath
+.settings/
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# Composer
+/vendor/
+composer.lock
 
-/logs/*
-!/logs/empty
+# Node.js
+/node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
 
-# CakePHP 2
+# Build/Test Directories
+/build/
+/dist/
+/tmp/
+/temp/
+/tests/coverage/
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+# Plugin-specific Files
+/upload/
+debug.log
+debug.txt
+error_log
+.htaccess
+
+# Deployment files
+deploy.sh
+deploy.php
+deployment-config.json
+
+# Log files
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# WordPress Core (if needed)
+/wordpress/
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
